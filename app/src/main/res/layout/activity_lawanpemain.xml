@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lawanpemain">
+
+    <ImageButton
+        android:id="@+id/ib_guntingpemain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/ib_refreshpemain"
+        app:layout_constraintStart_toStartOf="@+id/ib_refreshpemain"
+        app:layout_constraintTop_toBottomOf="@+id/iv_vspemain"
+        app:srcCompat="@drawable/ic_gunting" />
+
+    <ImageView
+        android:id="@+id/iv_judulpemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="101dp"
+        app:layout_constraintEnd_toEndOf="@+id/ib_batupemain2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/judul" />
+
+    <ImageButton
+        android:id="@+id/ib_kertaspemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_batupemain"
+        app:srcCompat="@drawable/ic_kertas" />
+
+    <ImageButton
+        android:id="@+id/ib_refreshpemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_refresh" />
+
+    <ImageButton
+        android:id="@+id/ib_guntingpemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ib_kertaspemain"
+        app:srcCompat="@drawable/ic_gunting" />
+
+    <ImageButton
+        android:id="@+id/ib_batupemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_judulpemain"
+        app:srcCompat="@drawable/ic_batu" />
+
+    <ImageButton
+        android:id="@+id/ib_batupemain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_judulpemain"
+        app:srcCompat="@drawable/ic_batu" />
+
+    <ImageView
+        android:id="@+id/iv_vspemain"
+        android:layout_width="134dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/ib_guntingpemain"
+        app:layout_constraintEnd_toEndOf="@+id/ib_guntingpemain2"
+        app:layout_constraintStart_toStartOf="@+id/ib_kertaspemain"
+        app:layout_constraintTop_toTopOf="@+id/ib_kertaspemain"
+        app:srcCompat="@drawable/vs" />
+
+    <ImageButton
+        android:id="@+id/ib_kertaspemain2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_vspemain"
+        app:srcCompat="@drawable/ic_kertas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
